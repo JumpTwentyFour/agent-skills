@@ -1,7 +1,7 @@
 ---
 name: github-issue-planner
-description:
-Plan and create GitHub issues with structured requirements, acceptance criteria, and task breakdowns. Use when users want to: (1) create a GitHub issue, (2) plan a feature or epic, (3) report a bug, (4) break down work into tasks. Triggers include "create an issue", "plan a feature", "I found a bug", "let's plan this epic".
+description: >
+    Plan and create GitHub issues with structured requirements, acceptance criteria, and task breakdowns. Use when users want to: (1) create a GitHub issue, (2) plan a feature or epic, (3) report a bug, (4) break down work into tasks. Triggers include "create an issue", "plan a feature", "I found a bug", "let's plan this epic".
 agent: Explore
 allowed-tools: Read, Bash, Grep, Glob, AskUserQuestion
 ---
