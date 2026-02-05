@@ -15,7 +15,7 @@ allowed-tools: Read, Bash, Grep, Glob, AskUserQuestion
 3. Use these values when calling the GitHub MCP tools
 
 # Writing and maintaining GitHub issues
-Standards for issues.
+Standards for issues. Always use GitHub MCP tool to interact with GitHub.
 
 ## Title Standards
 - **Sentence case** - Capitalize only the first word and proper nouns.
