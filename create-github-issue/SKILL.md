@@ -5,6 +5,8 @@ agent: Explore
 allowed-tools: Read, Bash, Grep, Glob, AskUserQuestion
 ---
 
+Always use GitHub MCP tool to interact with GitHub.
+
 ### Determine the repository
 
 1. Determine the target repository by running:
@@ -15,7 +17,7 @@ allowed-tools: Read, Bash, Grep, Glob, AskUserQuestion
 3. Use these values when calling the GitHub MCP tools
 
 # Writing and maintaining GitHub issues
-Standards for issues. Always use GitHub MCP tool to interact with GitHub.
+Standards for issues.
 
 ## Title Standards
 - **Sentence case** - Capitalize only the first word and proper nouns.
@@ -25,7 +27,7 @@ Standards for issues. Always use GitHub MCP tool to interact with GitHub.
 - **Specific** - "Be specific, it must be understandable without opening the issue body"
 
 ## Issue types
-Set via the `issue_write` after creating the issue:
+Set via the GitHub MCP `issue_write` tool after creating the issue:
 
 - **Bug** - Something isn't working as expected
 - **Feature** - New capability or improvement
@@ -53,10 +55,10 @@ When a big task is detected, follow the Epic Creation Workflow below instead of 
 When you identify a big task:
 
 1. **Gather context using AskUserQuestion:**
-    - What are the main goals or outcomes?
-    - What user stories or acceptance criteria exist?
-    - Are there dependencies between different parts?
-    - What priority should the subtasks have?
+   - What are the main goals or outcomes?
+   - What user stories or acceptance criteria exist?
+   - Are there dependencies between different parts?
+   - What priority should the subtasks have?
 
 2. **Create the Epic issue first** using the Epic Body Standards below
 
@@ -125,7 +127,7 @@ When creating subtasks for an Epic:
 
 Use the GitHub MCP  `list_label` tool to list labels.
 
-2. **Create missing labels:** 
+2. **Create missing labels:**
 
 For each label you need that doesn't exist, create it with the appropriate color using the GitHub MCP `label_write` tool.
 
