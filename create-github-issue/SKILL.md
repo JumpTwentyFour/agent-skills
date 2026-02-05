@@ -7,14 +7,11 @@ allowed-tools: Read, Bash, Grep, Glob, AskUserQuestion
 
 Always use GitHub MCP tool to interact with GitHub.
 
-### Determine the repository
+## Configuration
 
-1. Determine the target repository by running:
-```bash
-   git remote get-url origin
-```
-2. Parse the owner and repo name from the URL
-3. Use these values when calling the GitHub MCP tools
+Read `.claude/github-config.json` for repository settings:
+- `owner`: GitHub organisation/user
+- `repo`: Repository name
 
 # Writing and maintaining GitHub issues
 Standards for issues.
