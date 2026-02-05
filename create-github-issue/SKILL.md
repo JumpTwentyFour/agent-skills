@@ -91,7 +91,7 @@ Epic issues should follow this structure:
 
 When creating subtasks for an Epic:
 
-1. **Create each subtask** with `gh issue create`
+1. **Create each subtask** with GitHub MCP `issue_write`
 2. **Reference the parent Epic** in each subtask body:
    ```markdown
    Part of #[epic-number]
