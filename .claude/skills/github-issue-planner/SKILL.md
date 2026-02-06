@@ -20,6 +20,8 @@ Ask if not obvious from context:
 - **Task** - Internal task or chore
 - **Epic** - Large initiative requiring multiple child issues
 
+Always assign an issue type to the issue, an issue should always have one.
+
 #### Big Task Detection
 
 Before creating an issue, evaluate whether the request is a "big task" that should be an Epic with subtasks. A task qualifies as big if it has:
