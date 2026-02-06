@@ -20,7 +20,7 @@ Ask if not obvious from context:
 - **Task** - Internal task or chore
 - **Epic** - Large initiative requiring multiple child issues
 
-Always assign an issue type to the issue, an issue should always have one.
+Always assign an issue type to the issue, an issue should always have one. Set via the GitHub GraphQL API after creating the issue (the --type flag is not reliably supported).
 
 #### Big Task Detection
 
