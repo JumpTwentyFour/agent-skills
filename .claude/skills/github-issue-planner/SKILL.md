@@ -99,4 +99,4 @@ For epics, create the parent issue first, then offer to create child issues that
 - Never use title case for descriptions - use sentence case
 - **Always follow the Label Management Process** - See [references/labels.md](references/labels.md) for available labels and the process to check/create/apply them
 - Map priority to urgency labels: P1=Critical, P2=High, P3=Medium, P4=Low
-- Always apply the issue type to the issue
+- **Always apply the issue type to the issue**
